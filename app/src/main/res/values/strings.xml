@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Agricultura Inteligente</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="sobre">Sobre</string>
+    <string name="tematrabalho">Sistema computacional para o Agricultor</string>
+    <string name="next">Próximo</string>
+    <string name="good">Ótimo</string>
+    <string name="texto1">Texto 1</string>
+    <string name="texto2">Texto 2</string>
+    <string name="texto3">Texto 3</string>
+
+
+</resources>

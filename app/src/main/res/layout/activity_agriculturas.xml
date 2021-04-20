@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        tools:context=".Agriculturas">
+
+        <RelativeLayout
+            android:id="@+id/principalContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginVertical="10dp"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/addressContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="casual"
+                    android:text="Agriculturas"
+                    android:textColor="@color/design_default_color_surface"
+                    android:textSize="45dp" />
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp" />
+
+                <Button
+                    android:id="@+id/botaoMandioca"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:text="Mandioca" />
+
+                <Button
+                    android:id="@+id/botaoMilho"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+
+                    android:text="Milho"/>
+
+                <Button
+                    android:id="@+id/botaoFeijao"
+                    android:layout_width="135dp"
+                    android:layout_height="40dp"
+                    android:text="Feijao">
+
+                </Button>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp" />
+
+
+                <ImageView
+                    android:id="@+id/imageMilho"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="100dp"
+                    android:alpha="0.3"
+                    app:srcCompat="@drawable/milho1" />
+
+
+
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"
+                    app:srcCompat="@drawable/renderagricultura" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/detailsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3.0"
+                        android:background="#3CF1EBF1"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="65dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/ufrnlogo" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TADS"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:id="@+id/about"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="EAJ"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:alpha="0.1"
+                app:srcCompat="@drawable/cal" />
+
+
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="principalContainer" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
