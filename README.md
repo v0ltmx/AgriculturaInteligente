@@ -3,22 +3,27 @@ Project for mobile :iphone: - Agroclimatology for rural producers ©UFRN
 
 
 
-##Home
+## Home
 
 <img src="./indexpage.png" width="300px" />
 
 
-##Screens
+## Screens
 
  <img src="./page2.png" width="162px" /> <img src="./page3.png" width="162px" /> <img src="./page4.png" width="160px" /> <img src="./page5.png" width="160px" />
 
 
 
 
-##Statistic
+## Statistic
 
 <img src="./pagegif.gif" width="162px" />
 
+
+
+## Contribuintes
+- [Lucas Gabriel](https://github.com/v0ltmx)
+- [João Gabriel](https://github.com/joaogabrieldev)
  
 
 
