@@ -25,27 +25,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
-
         var params = intent.extras
-
         AplicativoTask().execute()
-
         binding.apply {
-
             buttonAgriculturas.setOnClickListener(){
                 val intent = Intent(this@MainActivity, Agriculturas::class.java)
                 startActivity(intent)
             }
-
             buttonCalculo.setOnClickListener(){
                 val intent = Intent(this@MainActivity, Calculo::class.java)
                 startActivity(intent)
             }
-
         }
         val toast = Toast.makeText(this@MainActivity, "Bem-vindo", Toast.LENGTH_SHORT)
         toast.show()
-
     }
 
     inner class AplicativoTask(): AsyncTask<String, Void, String>() {
@@ -56,7 +49,6 @@ class MainActivity : AppCompatActivity() {
             findViewById<RelativeLayout>(R.id.principalContainer).visibility = View.GONE
             findViewById<TextView>(R.id.errorText).visibility = View.GONE
         }
-
 
         override fun doInBackground(vararg params: String?): String? {
             var response: String?
@@ -70,7 +62,6 @@ class MainActivity : AppCompatActivity() {
             return response
         }
 
-
         override fun onPostExecute(result: String?) {
             super.onPostExecute(result)
             try {
@@ -80,7 +71,6 @@ class MainActivity : AppCompatActivity() {
                 val sys = jsonObj.getJSONObject("sys")
                 val wind = jsonObj.getJSONObject("wind")
                 val weather = jsonObj.getJSONArray("weather").getJSONObject(0)
-
                 val updatedAt: Long = jsonObj.getLong("dt")
                 val updatedAtText = "Atualizado: " + SimpleDateFormat("dd/MM/yyyy hh:mm a", Locale.ENGLISH).format(Date(updatedAt * 1000))
                 val temp = main.getString("temp") + "°C"
@@ -101,9 +91,6 @@ class MainActivity : AppCompatActivity() {
                 findViewById<TextView>(R.id.pressure).text = pressure
                 findViewById<TextView>(R.id.humidity).text = humidity
 
-
-
-
                 /* Exibições preenchidas, ocultando o carregador, mostrando o design principal */
                 findViewById<ProgressBar>(R.id.loader).visibility = View.GONE
                 findViewById<RelativeLayout>(R.id.principalContainer).visibility = View.VISIBLE
@@ -113,9 +100,5 @@ class MainActivity : AppCompatActivity() {
                 findViewById<TextView>(R.id.errorText).visibility = View.VISIBLE
             }
         }
-
-        
-
-
     }
 }
