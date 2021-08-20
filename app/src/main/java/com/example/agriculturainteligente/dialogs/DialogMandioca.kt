@@ -15,7 +15,7 @@ class DialogMandioca : DialogFragment() {
 
         val builder = AlertDialog.Builder(activity!!)
         builder.setTitle("Mais sobre a Mandioca")
-        //builder.setIcon(R.drawable.cafe)
+        //builder.setIcon(R.drawable.Mandioca) // lembrar de adicionar a imagem no drawble
         builder.setMessage("Originária de região tropical, a mandioca encontra condições favoráveis para o seu desenvolvimento em todos\n" +
                 "os climas tropicais e subtropicais.\n" +
                 "A faixa ideal de temperatura situa-se entre os limites de 20 a 27oC (média anual), podendo a planta crescer\n" +
@@ -28,13 +28,8 @@ class DialogMandioca : DialogFragment() {
                 "estabelecimento da cultura), o que prejudica a produção.")
 
             .setPositiveButton("OK", DialogInterface.OnClickListener { dialog, id ->
-
                 Toast.makeText(activity, getString(R.string.good), Toast.LENGTH_SHORT).show()
-
             })
-
-
         return builder.create()
-
     }
 }
