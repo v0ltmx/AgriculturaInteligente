@@ -15,7 +15,7 @@ class DialogFeijao : DialogFragment() {
 
         val builder = AlertDialog.Builder(activity!!)
         builder.setTitle("Mais sobre o Feijão")
-        //builder.setIcon(R.drawable.cafe)
+        //builder.setIcon(R.drawable.feijao) //Relembrar de adicionar a imagem no drawble
         builder.setMessage("No Brasil, o feijão de corda pode ter vários nomes, dependendo da região, sendo também conhecido por feijão\n" +
                 "caupi, macaçar ou fradinho. Apesar de ser um alimento tipicamente brasileiro, o feijão de corda é originário da África.\n" +
                 "Em função da sua ampla adaptabilidade e plasticidade, bem como o seu alto conteúdo proteico, o feijão de\n" +
@@ -26,13 +26,8 @@ class DialogFeijao : DialogFragment() {
                 "opção para a melhoria da qualidade de vida, especialmente da população carente, seja no meio rural ou urbano.")
 
             .setPositiveButton("OK", DialogInterface.OnClickListener { dialog, id ->
-
                 Toast.makeText(activity, getString(R.string.good), Toast.LENGTH_SHORT).show()
-
             })
-
-
         return builder.create()
-
     }
 }
