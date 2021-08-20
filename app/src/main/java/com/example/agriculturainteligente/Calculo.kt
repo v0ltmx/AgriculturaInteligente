@@ -11,13 +11,9 @@ class Calculo : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculo)
-
-
         val myWebView: WebView = findViewById(R.id.webview)
         myWebView.loadUrl("https://rate-forecast.vercel.app/calendario.html")
         //myWebView.loadUrl("https://www.climatempo.com.br/climatologia/1373/macaiba-rn")
-
-
 
      /*
         val calendarView = findViewById<CalendarView>(R.id.calendarView)
@@ -26,10 +22,6 @@ class Calculo : AppCompatActivity() {
             val msg = "A data selecionada foi " + dayOfMonth + "/" + (month + 1) + "/" + year
             Toast.makeText(this@Calculo, msg, Toast.LENGTH_SHORT).show()
         }
-
         calendarView?.dateTextAppearance.toString() */
-
-
         }
-
     }
