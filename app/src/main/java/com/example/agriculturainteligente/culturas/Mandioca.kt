@@ -24,8 +24,6 @@ class Mandioca : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this,R.layout.activity_mandioca)
         //viewModel = ViewModelProvider(this).get(Vmodel::class.java)
 
-
-
         binding.apply {
             botaoSobreMandioca.setOnClickListener {
                 var dialog = DialogMandioca()
