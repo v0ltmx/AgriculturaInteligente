@@ -15,7 +15,6 @@ class Agriculturas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agriculturas)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_agriculturas)
-
         binding.apply {
             botaoMandioca.setOnClickListener {
                 val intent = Intent(this@Agriculturas, Mandioca::class.java)
