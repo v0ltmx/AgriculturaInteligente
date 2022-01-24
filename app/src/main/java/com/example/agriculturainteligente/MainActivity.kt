@@ -20,7 +20,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     val CIDADE: String = "macaiba,br"
-    val API: String = ""   //API Agricultura Inteligente PA1 - TADS UFRN - By Lucas Gabriel
+    val API: String = "9f75659236a7316c845fb341a3dff409"   //API Agricultura Inteligente PA1 - TADS UFRN - By Lucas Gabriel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -32,8 +32,12 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, Agriculturas::class.java)
                 startActivity(intent)
             }
-            buttonCalculo.setOnClickListener(){
+            about.setOnClickListener(){
                 val intent = Intent(this@MainActivity, Calculo::class.java)
+                startActivity(intent)
+            }
+            buttonCalculo.setOnClickListener(){
+                val intent = Intent(this@MainActivity, sobre::class.java)
                 startActivity(intent)
             }
         }
@@ -87,9 +91,9 @@ class MainActivity : AppCompatActivity() {
                 findViewById<TextView>(R.id.temp).text = temp
                 findViewById<TextView>(R.id.temp_min).text = tempMin
                 findViewById<TextView>(R.id.temp_max).text = tempMax
-                findViewById<TextView>(R.id.wind).text = windSpeed
-                findViewById<TextView>(R.id.pressure).text = pressure
-                findViewById<TextView>(R.id.humidity).text = humidity
+                //findViewById<TextView>(R.id.wind).text = windSpeed
+                //findViewById<TextView>(R.id.pressure).text = pressure
+                //findViewById<TextView>(R.id.humidity).text = humidity
 
                 /* Exibições preenchidas, ocultando o carregador, mostrando o design principal */
                 findViewById<ProgressBar>(R.id.loader).visibility = View.GONE

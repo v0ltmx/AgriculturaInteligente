@@ -12,7 +12,10 @@ class Calculo : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculo)
         val myWebView: WebView = findViewById(R.id.webview)
-        myWebView.loadUrl("https://rate-forecast.vercel.app/calendario.html")
+        myWebView.loadUrl("https://sobre-tads.vercel.app/")
+
+        //val myWebView1: WebView = findViewById(R.id.webview)
+        //myWebView1.loadUrl("https://calculo-agro-clima.vercel.app/")
         //myWebView.loadUrl("https://www.climatempo.com.br/climatologia/1373/macaiba-rn")
 
      /*
@@ -25,3 +28,5 @@ class Calculo : AppCompatActivity() {
         calendarView?.dateTextAppearance.toString() */
         }
     }
+
+
