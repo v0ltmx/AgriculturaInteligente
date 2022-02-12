@@ -23,7 +23,7 @@
 
 ## Contributors
 - [Lucas Gabriel](https://github.com/v0ltmx)
-- [João Gabriel](https://github.com/joaogabrieldev)
+- [Eric Costa](https://github.com/ericosta-dev)
  
 
 
