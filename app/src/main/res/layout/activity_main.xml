@@ -184,7 +184,7 @@
                             android:layout_height="5dp" />
 
                         <Button
-                            android:id="@+id/about"
+                            android:id="@+id/buttonMais"
                             android:layout_width="65dp"
                             android:layout_height="wrap_content"
                             android:text="EAJ"

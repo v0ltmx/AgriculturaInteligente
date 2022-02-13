@@ -65,8 +65,14 @@
                     app:srcCompat="@drawable/folhabg" />
 
                 <Button
+                    android:id="@+id/voltarMilho"
+                    android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:text="Voltar" />
+
+                <Button
                     android:id="@+id/botaoSobreMilho"
-                    android:layout_width="129dp"
+                    android:layout_width="match_parent"
                     android:layout_height="38dp"
                     android:text="Mais Sobre" />
 

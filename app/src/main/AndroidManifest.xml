@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AgriculturaInteligente"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".MaisSobre"
+            android:exported="false" />
+        <activity
             android:name=".Calendario.Calendario"
             android:exported="false" />
         <activity

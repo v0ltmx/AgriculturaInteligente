@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
+import com.example.agriculturainteligente.Agriculturas
 import com.example.agriculturainteligente.R
 import com.example.agriculturainteligente.databinding.ActivityMandiocaBinding
 import com.example.agriculturainteligente.dialogs.DialogFeijao
@@ -25,6 +26,10 @@ class Mandioca : AppCompatActivity() {
         //viewModel = ViewModelProvider(this).get(Vmodel::class.java)
 
         binding.apply {
+            voltarMandioca.setOnClickListener{
+                val intent = Intent(this@Mandioca, Agriculturas::class.java)
+                startActivity(intent)
+            }
             botaoSobreMandioca.setOnClickListener {
                 var dialog = DialogMandioca()
                 dialog.show(supportFragmentManager,"Dialog")

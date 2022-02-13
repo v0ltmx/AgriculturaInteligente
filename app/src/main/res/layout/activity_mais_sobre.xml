@@ -4,9 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".sobre">
+    tools:context=".MaisSobre">
 
     <WebView
+        android:id="@+id/WebView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="0dp" >
+
+    </WebView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

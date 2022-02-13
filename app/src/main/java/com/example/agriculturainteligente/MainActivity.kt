@@ -32,10 +32,14 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, Agriculturas::class.java)
                 startActivity(intent)
             }
-            about.setOnClickListener(){
-                val intent = Intent(this@MainActivity, sobre::class.java)
+            buttonMais.setOnClickListener(){
+                val intent = Intent(this@MainActivity, MaisSobre::class.java)
                 startActivity(intent)
             }
+           // about.setOnClickListener(){
+             //   val intent = Intent(this@MainActivity, sobre::class.java)
+               // startActivity(intent)
+            //}
             buttonCalculo.setOnClickListener(){
                 val intent = Intent(this@MainActivity, Calculo::class.java)
                 startActivity(intent)

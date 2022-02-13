@@ -39,10 +39,6 @@
                     android:textColor="@color/design_default_color_surface"
                     android:textSize="45dp" />
 
-                <Space
-                    android:layout_width="wrap_content"
-                    android:layout_height="80dp" />
-
             </LinearLayout>
 
 
@@ -54,25 +50,17 @@
                 android:orientation="vertical">
 
 
-                <ImageView
-                    android:id="@+id/imageBackground"
+                <Button
+                    android:id="@+id/voltarMandioca"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:alpha="0.2"
-                    app:srcCompat="@drawable/renderagric" />
-
+                    android:layout_height="39dp"
+                    android:text="Voltar" />
 
                 <Button
                     android:id="@+id/botaoSobreMandioca"
                     android:layout_width="match_parent"
                     android:layout_height="38dp"
                     android:text="Mais Sobre" />
-
-                <Button
-                    android:id="@+id/button"
-                    android:layout_width="match_parent"
-                    android:layout_height="39dp"
-                    android:text="Voltar" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -117,12 +105,6 @@
 
 
         </RelativeLayout>
-
-        <androidx.constraintlayout.widget.Group
-            android:id="@+id/group"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:constraint_referenced_ids="principalContainer" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
