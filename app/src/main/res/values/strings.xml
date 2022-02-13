@@ -10,5 +10,13 @@
     <string name="texto2">Texto 2</string>
     <string name="texto3">Texto 3</string>
 
+    <string name="strMandioca">O ciclo agrícola da mandioca é 12 a 18 meses após semeadura
+    em média o nivel de precipitação necessaria para a mandioca é 500 a 700 milímetros de chuva ao ano</string>
+
+    <string name="strMilho">O ciclo agrícola do mulho no RN varia de 120 a 140 dias
+    em média anual a precipitação deve variar entre 250mm e 600mm</string>
+
+    <string name="strFeijao">O ciclo agrícola do feijão no estado do RN varia de 120 a 140 dias,
+    em média anual a precipitação deve variar entre 250 mm e 600 mm</string>
 
 </resources>

@@ -10,17 +10,17 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorAccent"
+        android:background="#4c956c"
         tools:context=".Mandioca">
 
         <RelativeLayout
             android:id="@+id/principalContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_marginVertical="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
             android:visibility="visible">
 
             <LinearLayout
@@ -34,7 +34,7 @@
                     android:id="@+id/address"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="casual"
+                    android:fontFamily="sans-serif"
                     android:text="Mandioca"
                     android:textColor="@color/design_default_color_surface"
                     android:textSize="45dp" />
@@ -45,61 +45,76 @@
             <LinearLayout
                 android:id="@+id/detailsContainer"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="506dp"
                 android:layout_alignParentBottom="true"
                 android:orientation="vertical">
 
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/strMandioca"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="201dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                </LinearLayout>
 
                 <Button
                     android:id="@+id/voltarMandioca"
                     android:layout_width="match_parent"
                     android:layout_height="39dp"
+                    android:backgroundTint="@color/botoes"
                     android:text="Voltar" />
 
                 <Button
                     android:id="@+id/botaoSobreMandioca"
                     android:layout_width="match_parent"
+                    android:backgroundTint="@color/botoes"
                     android:layout_height="38dp"
                     android:text="Mais Sobre" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:weightSum="3">
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.0"
+                    android:background="#3CF1EBF1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_weight="3.0"
-                        android:background="#3CF1EBF1"
-                        android:gravity="center"
-                        android:orientation="vertical"
-                        android:padding="8dp">
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ufrnlogo" />
 
-                        <ImageView
-                            android:layout_width="65dp"
-                            android:layout_height="25dp"
-                            android:src="@drawable/ufrnlogo" />
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="5dp" />
 
-                        <Space
-                            android:layout_width="wrap_content"
-                            android:layout_height="5dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TADS"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="TADS"
-                            android:textSize="12dp" />
-
-                        <TextView
-                            android:id="@+id/about"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="EAJ"
-                            android:textSize="14dp" />
-                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/about"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EAJ"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
                 </LinearLayout>
+
 
             </LinearLayout>
 

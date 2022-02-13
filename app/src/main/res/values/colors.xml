@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6FB6F4</color>
+    <color name="colorPrimary">#4c956c</color>
+    <color name="botoes">#006466</color>
     <color name="colorPrimaryDark">#3E97F0</color>
     <color name="colorAccent">#009688</color>
 
     <color name="light_grey">#ABABAB</color>
     <color name="dark_grey">#333333</color>
     <color name="dark_blue">#405467</color>
+    <color name="colorTitleBar">#4c956c</color>
 
     <!-- google's material design colors from
      http://www.google.com/design/spec/style/color.html#color-ui-color-palette -->

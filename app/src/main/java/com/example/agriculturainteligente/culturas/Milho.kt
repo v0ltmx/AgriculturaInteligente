@@ -18,7 +18,10 @@ class Milho : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_milho)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_milho)
-
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
         binding.apply {
             voltarMilho.setOnClickListener{
                 val intent = Intent(this@Milho, Agriculturas::class.java)

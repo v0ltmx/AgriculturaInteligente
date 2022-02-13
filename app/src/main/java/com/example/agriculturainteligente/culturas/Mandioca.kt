@@ -24,7 +24,10 @@ class Mandioca : AppCompatActivity() {
         setContentView(R.layout.activity_mandioca)
         binding = DataBindingUtil.setContentView(this,R.layout.activity_mandioca)
         //viewModel = ViewModelProvider(this).get(Vmodel::class.java)
-
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
         binding.apply {
             voltarMandioca.setOnClickListener{
                 val intent = Intent(this@Mandioca, Agriculturas::class.java)

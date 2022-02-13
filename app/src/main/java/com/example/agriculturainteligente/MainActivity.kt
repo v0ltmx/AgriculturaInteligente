@@ -2,16 +2,16 @@ package com.example.agriculturainteligente
 
 import android.content.Intent
 import android.os.AsyncTask
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.view.Window
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.example.agriculturainteligente.databinding.ActivityMainBinding
-import kotlinx.android.synthetic.main.activity_main.*
 import org.json.JSONObject
 import java.net.URL
 import java.text.SimpleDateFormat
@@ -22,8 +22,13 @@ class MainActivity : AppCompatActivity() {
     val CIDADE: String = "macaiba,br"
     val API: String = "9f75659236a7316c845fb341a3dff409"   //API Agricultura Inteligente PA1 - TADS UFRN - By Lucas Gabriel
     override fun onCreate(savedInstanceState: Bundle?) {
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
         var params = intent.extras
         AplicativoTask().execute()

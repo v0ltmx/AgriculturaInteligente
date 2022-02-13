@@ -11,7 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/md_light_green_400"
+        android:background="#4c956c"
         android:orientation="vertical"
         android:padding="25dp">
 
@@ -36,16 +36,18 @@
                     android:id="@+id/localizacao"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="casual"
+                    android:fontFamily="sans-serif"
                     android:text="MACAIBA, RN"
-                    android:textColor="@color/design_default_color_surface"
+                    android:textColor="#FFFFFF"
                     android:textSize="24dp" />
 
                 <TextView
                     android:id="@+id/updated_at"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
                     android:text="08 Março 2021,  PM"
+                    android:textColor="#FFFFFF"
                     android:textSize="14dp" />
 
             </LinearLayout>
@@ -65,9 +67,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="1dp"
-                    android:fontFamily="casual"
+                    android:fontFamily="sans-serif"
                     android:text="29°C"
-                    android:textColor="@color/design_default_color_surface"
+                    android:textColor="#FFFFFF"
                     android:textSize="50dp" />
 
                 <LinearLayout
@@ -80,7 +82,9 @@
                         android:id="@+id/temp_min"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Min Temp: 05:05 AM" />
+                        android:fontFamily="sans-serif"
+                        android:text="Min Temp: 05:05 AM"
+                        android:textColor="#FFFFFF" />
 
                     <Space
                         android:layout_width="50dp"
@@ -90,7 +94,9 @@
                         android:id="@+id/temp_max"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Max Temp: 05:05 PM" />
+                        android:fontFamily="sans-serif"
+                        android:text="Max Temp: 05:05 PM"
+                        android:textColor="#FFFFFF" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -133,6 +139,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Agriculturas"
+                            android:textColor="#FFFFFF"
                             android:textSize="12dp" />
                     </LinearLayout>
 
@@ -161,6 +168,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Calendário"
+                            android:textColor="#FFFFFF"
                             android:textSize="12dp" />
                     </LinearLayout>
 
@@ -187,6 +195,7 @@
                             android:id="@+id/buttonMais"
                             android:layout_width="65dp"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/botoes"
                             android:text="EAJ"
                             android:textSize="14dp" />
                     </LinearLayout>
@@ -214,26 +223,6 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="205dp"
-                android:layout_marginTop="2dp"
-                android:alpha="0.08"
-                android:rotation="180"
-                android:rotationX="10"
-                android:visibility="visible"
-                app:srcCompat="@drawable/render" />
-
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="30dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:alpha="0.5"
-                android:rotationX="10"
-                app:srcCompat="@drawable/humidity" />
         </RelativeLayout>
 
 

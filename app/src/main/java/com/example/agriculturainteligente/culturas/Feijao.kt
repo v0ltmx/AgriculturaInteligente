@@ -16,6 +16,10 @@ class Feijao : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_feijao)
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
         binding = DataBindingUtil.setContentView(this,R.layout.activity_feijao)
 
         binding.apply {

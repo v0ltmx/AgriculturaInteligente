@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Dev/AgriculturaInteligente/app/src/main/res/layout/activity_agriculturas.xml" value="0.2962962962962963" />
+        <entry key="..\:/Dev/AgriculturaInteligente/app/src/main/res/layout/activity_calculo.xml" value="0.33" />
+        <entry key="..\:/Dev/AgriculturaInteligente/app/src/main/res/layout/activity_feijao.xml" value="0.25" />
+        <entry key="..\:/Dev/AgriculturaInteligente/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Dev/AgriculturaInteligente/app/src/main/res/layout/activity_mais_sobre.xml" value="0.30416666666666664" />
+        <entry key="..\:/Dev/AgriculturaInteligente/app/src/main/res/layout/activity_mandioca.xml" value="0.33" />
+        <entry key="..\:/Dev/AgriculturaInteligente/app/src/main/res/layout/activity_milho.xml" value="0.22" />
         <entry key="..\:/Users/lucas/StudioProjects/AgriculturaInteligente/app/src/main/res/layout/activity_agriculturas.xml" value="0.25" />
         <entry key="..\:/Users/lucas/StudioProjects/AgriculturaInteligente/app/src/main/res/layout/activity_calculo.xml" value="0.2726449275362319" />
         <entry key="..\:/Users/lucas/StudioProjects/AgriculturaInteligente/app/src/main/res/layout/activity_calendario.xml" value="0.25" />
