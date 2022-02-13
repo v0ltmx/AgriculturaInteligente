@@ -10,9 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.AgriculturaInteligente">
-        <activity android:name=".culturas.Feijao"></activity>
+        android:theme="@style/Theme.AgriculturaInteligente"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Calendario.Calendario"
+            android:exported="false" />
+        <activity
+            android:name=".sobre"
+            android:exported="false" />
+        <activity android:name=".culturas.Feijao" />
         <activity android:name=".culturas.Milho" />
         <activity android:name=".culturas.Mandioca" />
         <activity android:name=".Calculo" />
