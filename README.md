@@ -1,16 +1,17 @@
 # Agricultura Inteligente
 *Project for mobile :iphone: - Agroclimatology for rural producers - 2021 ©UFRN
 
+### Kanban:  
+https://github.com/users/v0ltmx/projects/2
 
 
 ## Home
-
-<img src="./indexpage.png" width="300px" />
+<img src="./inicio.png" width="180px" />
 
 
 ## Screens
 
- <img src="./page2.png" width="162px" /> <img src="./page3.png" width="162px" /> <img src="./page4.png" width="160px" /> <img src="./page5.png" width="160px" />
+ <img src="./calc.png" width="162px" /> <img src="./about.png" width="162px" /> 
 
 
 
