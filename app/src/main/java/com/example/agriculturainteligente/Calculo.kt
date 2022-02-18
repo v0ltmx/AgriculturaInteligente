@@ -15,12 +15,8 @@ class Calculo : AppCompatActivity() {
         val myWebView: WebView = findViewById(R.id.WebView)
         myWebView.settings.javaScriptEnabled = true
         myWebView.webChromeClient = WebChromeClient()
-        //myWebView.loadUrl("https://sobre-tads.vercel.app/%22)
         myWebView.loadUrl("https://calendario-seven.vercel.app/")
-        //val myWebView1: WebView = findViewById(R.id.webview)
-        //myWebView1.loadUrl("https://calculo-agro-clima.vercel.app/%22)
-        //myWebView.loadUrl("https://www.climatempo.com.br/climatologia/1373/macaiba-rn%22)
-
+       
 
     }
 }
