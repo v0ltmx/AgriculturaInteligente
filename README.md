@@ -26,6 +26,7 @@
 - [Lucas Araújo](https://github.com/Araujo96)
 - [Eric Costa](https://github.com/ericosta-dev)
 - [Emanuel](https://github.com/manelB1)
+- [Dimitrio Krislley](https://github.com/O-tal-do-Dimik)
 
 
  
