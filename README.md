@@ -27,6 +27,7 @@ https://github.com/users/v0ltmx/projects/2
 - [Lucas Araújo](https://github.com/Araujo96)
 - [Eric Costa](https://github.com/ericosta-dev)
 - [Dimitrio Krislley](https://github.com/O-tal-do-Dimik)
+- [Emanuel Barbosa](https://github.com/manelB1)
 
 
  
