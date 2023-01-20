@@ -20,7 +20,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     val CIDADE: String = "macaiba,br"
-    val API: String = "9f75659236a7316c845fb341a3dff409"   //API Agricultura Inteligente PA1 - TADS UFRN - By Lucas Gabriel
+    val API: String = "9f75659236a7316c845fb341a3dff409"   //API Agricultura Inteligente PA1 - By Lucas Gabriel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
