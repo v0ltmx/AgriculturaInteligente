@@ -11,9 +11,7 @@ https://github.com/users/v0ltmx/projects/2
 
 ## Screens
 
- <img src="./calc.png" width="162px" /> <img src="./about.png" width="162px" /> 
-
-
+ <img src="./calc.png" width="162px" />
 
 
 ## Statistic
@@ -27,7 +25,7 @@ https://github.com/users/v0ltmx/projects/2
 - [Lucas Araújo](https://github.com/Araujo96)
 - [Eric Costa](https://github.com/ericosta-dev)
 - [Matheus Henrique](https://github.com/Yurnero-ctrl)
-- [Emanuel Barbosa](https://github.com/manelB1)
+
 
 
  
