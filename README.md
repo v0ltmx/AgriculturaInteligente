@@ -1,9 +1,5 @@
 # Agricultura Inteligente
-*Project for mobile :iphone: - Agroclimatology for rural producers - 2021 ©UFRN
-
-### Kanban:  
-https://github.com/users/v0ltmx/projects/2
-
+*Project for mobile :iphone: - Agroclimatology for rural producers
 
 ## Home
 <img src="./inicio.png" width="180px" />
